@@ -32,7 +32,7 @@ function App() {
    
   const currentUserId= useSelector(state => state.user.currentUserId)  
   const refreshToken = async () => {
-    try {
+    try { 
       const REFRESH_TOKEN = localStorage.getItem("refreshToken")
       const res = await publicRequest.post("/auth/refresh/" + currentUserId, { refreshToken: REFRESH_TOKEN });
       localStorage.setItem("accessToken", res.data.accessToken)
