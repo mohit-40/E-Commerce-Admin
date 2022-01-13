@@ -1,2 +1,2 @@
 # E-Commerce-Admin
-shophifyadmin.herokuapp.com/
+https://shophify-admin.herokuapp.com/
